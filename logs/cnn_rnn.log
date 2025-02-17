@@ -1,0 +1,77 @@
++ srun python train2.py --model_type cnn_rnn
+475 475
+53 53
+model_type:cnn_rnn
+Epoch 1/20
+Train Loss: 1.4193, Train Accuracy: 0.5368
+Validation Loss: 1.2935, Validation Accuracy: 0.5660
+Checkpoint saved at ./models/best_model_epoch_1.pt
+Epoch 2/20
+Train Loss: 1.0439, Train Accuracy: 0.8589
+Validation Loss: 1.0258, Validation Accuracy: 0.7736
+Checkpoint saved at ./models/best_model_epoch_2.pt
+Epoch 3/20
+Train Loss: 0.7589, Train Accuracy: 0.9095
+Validation Loss: 0.7950, Validation Accuracy: 0.8113
+Checkpoint saved at ./models/best_model_epoch_3.pt
+Epoch 4/20
+Train Loss: 0.5536, Train Accuracy: 0.9432
+Validation Loss: 0.6406, Validation Accuracy: 0.8302
+Checkpoint saved at ./models/best_model_epoch_4.pt
+Epoch 5/20
+Train Loss: 0.4093, Train Accuracy: 0.9579
+Validation Loss: 0.5291, Validation Accuracy: 0.8679
+Checkpoint saved at ./models/best_model_epoch_5.pt
+Epoch 6/20
+Train Loss: 0.3145, Train Accuracy: 0.9726
+Validation Loss: 0.4627, Validation Accuracy: 0.9057
+Checkpoint saved at ./models/best_model_epoch_6.pt
+Epoch 7/20
+Train Loss: 0.2367, Train Accuracy: 0.9811
+Validation Loss: 0.4716, Validation Accuracy: 0.8868
+Epoch 8/20
+Train Loss: 0.1841, Train Accuracy: 0.9874
+Validation Loss: 0.4289, Validation Accuracy: 0.8679
+Checkpoint saved at ./models/best_model_epoch_8.pt
+Epoch 9/20
+Train Loss: 0.1513, Train Accuracy: 0.9937
+Validation Loss: 0.3799, Validation Accuracy: 0.9057
+Checkpoint saved at ./models/best_model_epoch_9.pt
+Epoch 10/20
+Train Loss: 0.1293, Train Accuracy: 0.9958
+Validation Loss: 0.4110, Validation Accuracy: 0.9057
+Epoch 11/20
+Train Loss: 0.1098, Train Accuracy: 0.9937
+Validation Loss: 0.3773, Validation Accuracy: 0.9057
+Checkpoint saved at ./models/best_model_epoch_11.pt
+Epoch 12/20
+Train Loss: 0.0992, Train Accuracy: 0.9958
+Validation Loss: 0.5696, Validation Accuracy: 0.8491
+Epoch 13/20
+Train Loss: 0.0965, Train Accuracy: 0.9895
+Validation Loss: 0.3359, Validation Accuracy: 0.9057
+Checkpoint saved at ./models/best_model_epoch_13.pt
+Epoch 14/20
+Train Loss: 0.0846, Train Accuracy: 0.9937
+Validation Loss: 0.3196, Validation Accuracy: 0.9245
+Checkpoint saved at ./models/best_model_epoch_14.pt
+Epoch 15/20
+Train Loss: 0.0742, Train Accuracy: 0.9979
+Validation Loss: 0.4440, Validation Accuracy: 0.9057
+Epoch 16/20
+Train Loss: 0.0668, Train Accuracy: 1.0000
+Validation Loss: 0.3480, Validation Accuracy: 0.9057
+Epoch 17/20
+Train Loss: 0.0543, Train Accuracy: 1.0000
+Validation Loss: 0.3516, Validation Accuracy: 0.9434
+Epoch 18/20
+Train Loss: 0.0494, Train Accuracy: 1.0000
+Validation Loss: 0.3314, Validation Accuracy: 0.9057
+Epoch 19/20
+Train Loss: 0.0551, Train Accuracy: 0.9958
+Validation Loss: 0.6074, Validation Accuracy: 0.7736
+Epoch 20/20
+Train Loss: 0.0472, Train Accuracy: 1.0000
+Validation Loss: 0.3618, Validation Accuracy: 0.9057
+Epoch 00020: reducing learning rate of group 0 to 1.5000e-05.
+Checkpoint saved at ./models/best_model_epoch_20.pt
