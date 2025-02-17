@@ -1,0 +1,76 @@
++ srun python train2.py --model_type 3dcnn
+475 475
+53 53
+model_type:3dcnn
+Epoch 1/20
+Train Loss: 5.7868, Train Accuracy: 0.2063
+Validation Loss: 3.5522, Validation Accuracy: 0.4151
+Checkpoint saved at ./models/best_model_epoch_1.pt
+Epoch 2/20
+Train Loss: 1.6841, Train Accuracy: 0.7158
+Validation Loss: 2.2992, Validation Accuracy: 0.5849
+Checkpoint saved at ./models/best_model_epoch_2.pt
+Epoch 3/20
+Train Loss: 0.6713, Train Accuracy: 0.8884
+Validation Loss: 1.5552, Validation Accuracy: 0.6981
+Checkpoint saved at ./models/best_model_epoch_3.pt
+Epoch 4/20
+Train Loss: 0.3559, Train Accuracy: 0.9495
+Validation Loss: 1.2400, Validation Accuracy: 0.7358
+Checkpoint saved at ./models/best_model_epoch_4.pt
+Epoch 5/20
+Train Loss: 0.2039, Train Accuracy: 0.9600
+Validation Loss: 0.9858, Validation Accuracy: 0.7925
+Checkpoint saved at ./models/best_model_epoch_5.pt
+Epoch 6/20
+Train Loss: 0.1396, Train Accuracy: 0.9811
+Validation Loss: 0.9428, Validation Accuracy: 0.7547
+Checkpoint saved at ./models/best_model_epoch_6.pt
+Epoch 7/20
+Train Loss: 0.0964, Train Accuracy: 0.9747
+Validation Loss: 0.8331, Validation Accuracy: 0.8113
+Checkpoint saved at ./models/best_model_epoch_7.pt
+Epoch 8/20
+Train Loss: 0.1165, Train Accuracy: 0.9747
+Validation Loss: 0.8395, Validation Accuracy: 0.7547
+Epoch 9/20
+Train Loss: 0.0437, Train Accuracy: 0.9937
+Validation Loss: 0.8189, Validation Accuracy: 0.8302
+Checkpoint saved at ./models/best_model_epoch_9.pt
+Epoch 10/20
+Train Loss: 0.0769, Train Accuracy: 0.9853
+Validation Loss: 0.7071, Validation Accuracy: 0.8113
+Checkpoint saved at ./models/best_model_epoch_10.pt
+Epoch 11/20
+Train Loss: 0.0661, Train Accuracy: 0.9853
+Validation Loss: 0.7086, Validation Accuracy: 0.8679
+Epoch 12/20
+Train Loss: 0.0334, Train Accuracy: 0.9937
+Validation Loss: 0.7762, Validation Accuracy: 0.8302
+Epoch 13/20
+Train Loss: 0.0246, Train Accuracy: 0.9937
+Validation Loss: 0.8099, Validation Accuracy: 0.8868
+Epoch 14/20
+Train Loss: 0.0295, Train Accuracy: 0.9958
+Validation Loss: 0.8232, Validation Accuracy: 0.8302
+Epoch 15/20
+Train Loss: 0.0279, Train Accuracy: 0.9958
+Validation Loss: 0.6628, Validation Accuracy: 0.8679
+Checkpoint saved at ./models/best_model_epoch_15.pt
+Epoch 16/20
+Train Loss: 0.0255, Train Accuracy: 0.9937
+Validation Loss: 0.6705, Validation Accuracy: 0.8868
+Epoch 17/20
+Train Loss: 0.0098, Train Accuracy: 1.0000
+Validation Loss: 0.7056, Validation Accuracy: 0.8868
+Epoch 18/20
+Train Loss: 0.0239, Train Accuracy: 0.9958
+Validation Loss: 0.6637, Validation Accuracy: 0.9057
+Epoch 19/20
+Train Loss: 0.0108, Train Accuracy: 1.0000
+Validation Loss: 0.7009, Validation Accuracy: 0.8868
+Epoch 20/20
+Train Loss: 0.0149, Train Accuracy: 1.0000
+Validation Loss: 0.6372, Validation Accuracy: 0.9434
+Checkpoint saved at ./models/best_model_epoch_20.pt
+Checkpoint saved at ./models/best_model_epoch_20.pt
