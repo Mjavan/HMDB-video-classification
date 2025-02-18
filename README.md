@@ -51,9 +51,9 @@ This project aims to classify videos using deep learning models. The models used
       ```
 
 ## Usage
-1. **Download data** from the following link:
+1. **Download data** from:
     [this Kaggle link](https://www.kaggle.com/datasets/ashrafmahmud/test-hmdb-51?select=train_1)
-   save train data in the dir ./train_1 and test data in the dir ./test
+   After downloading, save the training data in the `./train_1` directory and the test data in the `./test directory`.
 
 2. **Extract frames** from your video dataset:
     ```bash
