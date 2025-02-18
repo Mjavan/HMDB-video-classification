@@ -69,7 +69,7 @@ This project aims to classify videos using deep learning models. The models used
     ```bash
     python inference.py --model_type cnn_rnn --root /path/to/saved_model
     ```
-
+    You should obtain 94% accuracy on validation set using 3DResNet and 90% accuracy using CNN-RNN. 
 ## Models
 
 This repository includes two models:
