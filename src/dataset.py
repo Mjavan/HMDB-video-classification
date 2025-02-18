@@ -19,7 +19,7 @@ random.seed(2020)
 torch.manual_seed(2020)
 
 
-root = '/dhc/home/masoumeh.javanbakhat/coldstore/Com_Vision'
+root = './data'
 path2jpg = os.path.join(root,'train_jpg')
 path2jpg_test = os.path.join(root,'test_jpg') 
 
