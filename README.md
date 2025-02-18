@@ -52,7 +52,7 @@ This project aims to classify videos using deep learning models. The models used
 
 ## Usage
 1. **Download data** from the following link:
-    https://www.kaggle.com/datasets/ashrafmahmud/test-hmdb-51?select=train_1
+    [this Kaggle link](https://www.kaggle.com/datasets/ashrafmahmud/test-hmdb-51?select=train_1)
    save train data in the dir ./train_1 and test data in the dir ./test
 
 2. **Extract frames** from your video dataset:
