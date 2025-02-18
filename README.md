@@ -51,20 +51,23 @@ This project aims to classify videos using deep learning models. The models used
       ```
 
 ## Usage
+1. **Download data** from the following link:
+    https://www.kaggle.com/datasets/ashrafmahmud/test-hmdb-51?select=train_1
+   save train data in the dir ./train_1 and test data in the dir ./test
 
-1. **Extract frames** from your video dataset:
+2. **Extract frames** from your video dataset:
     ```bash
-    python extract_frames.py --input_videos /path/to/videos --output_dir /path/to/save/frames
+    python extract_frames.py 
     ```
 
-2. **Train the model**:
+3. **Train the model**:
     ```bash
-    python train.py --data_dir /path/to/data --epochs 10 --batch_size 32
+    python train.py --epochs 10 --batch_size 32 --model_type cnn_rnn
     ```
 
-3. **Run inference** to classify a video:
+4. **Run inference** to classify a video:
     ```bash
-    python inference.py --video_path /path/to/video --model_path /path/to/saved_model
+    python inference.py --model_type cnn_rnn --root /path/to/saved_model
     ```
 
 ## Models
