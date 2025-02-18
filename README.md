@@ -87,6 +87,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **PyTorch**: Used for building and training the models.
 - **OpenCV**: Used for video frame extraction.
 
-## Contact
-
-If you have any questions or suggestions, feel free to open an issue in this repository or contact me at your-email@example.com.
