@@ -30,7 +30,7 @@ This project aims to classify videos using deep learning models. The models used
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/your-username/your-repository-name.git
+    git clone https://github.com/Mjavan/HMDB-video-classification.git
     ```
 
 2. Install dependencies:
