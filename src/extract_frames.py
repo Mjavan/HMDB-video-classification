@@ -35,9 +35,9 @@ def video_to_image(phase='train'):
     extension = ".avi"
     n_frames = 16
     if phase=='train':
-        path_data = '/dhc/home/masoumeh.javanbakhat/coldstore/Com_Vision/train_1'
+        path_data = './data/train_1'
     elif path_data=='test':
-        path_data = '/dhc/home/masoumeh.javanbakhat/coldstore/Com_Vision/test'
+        path_data = './data/test'
     for root, dirs, files in os.walk(path_data, topdown=False):
         for name in files:
             if extension not in name:
