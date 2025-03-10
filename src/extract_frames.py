@@ -43,7 +43,7 @@ def video_to_image(phase='train'):
             if extension not in name:
                 continue
             path2vid = os.path.join(root, name)
-            frames, vlen = get_frame2(path2vid, n_frames= n_frames)
+            frames, vlen = get_frame(path2vid, n_frames= n_frames)
             print(len(frames))
             if phase=='train':
                 path2store = path2vid.replace('train_1', 'train_jpg')
