@@ -23,7 +23,7 @@ root = './data'
 path2jpg = os.path.join(root,'train_jpg')
 path2jpg_test = os.path.join(root,'test_jpg') 
 
-def get_vids(path2ajpgs):
+def get_vids(path2jpg):
     listOfCats = os.listdir(path2jpg)
     ids = []
     labels = []
